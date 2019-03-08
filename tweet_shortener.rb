@@ -35,7 +35,7 @@ end
 
 
 def selective_tweet_shortener(str)
-if str.join(" ").length >= 140     
+if str.join(" ").length >= 140
     bulk_tweet_shortener(str)
 else
 puts str
