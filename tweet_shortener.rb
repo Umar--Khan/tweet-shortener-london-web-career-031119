@@ -34,8 +34,9 @@ def bulk_tweet_shortener(str)
 end
 
 def selective_tweet_shortener(str)
-if str.length > 140
-  puts bulk_tweet_shortener(str)
-else
-  puts str
+  if str.length > 140
+    puts bulk_tweet_shortener(str)
+  else
+    puts str
+end
 end
