@@ -26,11 +26,11 @@ def word_substituter(str)
 end
 
 def bulk_tweet_shortener(str)
-  arr= ["test"]  
+  arr= ["test"]
   str.each do |words|
   dictionary.each do |k, v|
       if words == k
-        str = words.replace(v)        
+        str = words.replace(v)
         end
       end
     end
