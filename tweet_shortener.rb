@@ -21,9 +21,9 @@ def word_substituter(str)
       if words == k
         words = v
         end
-      end
-      arr.push(words)
+      end      
     end
+    arr.push(words)
   arr.join(" ")
 end
 
