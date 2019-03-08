@@ -39,5 +39,5 @@ def bulk_tweet_shortener(str)
       end
     end
   arr = arr.push(str.join(" "))
-  puts arr.split(" ")
+  puts arr.join(" ")
 end
