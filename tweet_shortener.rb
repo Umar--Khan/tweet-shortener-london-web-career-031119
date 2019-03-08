@@ -18,7 +18,7 @@ def word_substituter(str)
   str.split.collect do |words|
   dictionary.each do |k, v|
       if words == k
-        words.replace(v)
+        words = v
         end
       end
       arr.push(words)
