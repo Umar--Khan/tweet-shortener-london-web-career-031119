@@ -23,7 +23,7 @@ def word_substituter(str)
         end
       end
       arr.push(words)
-    end    
+    end
   arr.join(" ")
 end
 
