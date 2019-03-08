@@ -26,12 +26,13 @@ def word_substituter(str)
 end
 
 def bulk_tweet_shortener(str)
+  str = str.join(" ").split(" ")
   str.each do |words|
   dictionary.each do |k, v|
       if words == k
-        str = words.replace(v)
+        words.replace(v)
         end
       end
     end
-  puts str
+  str.join(" ")
 end
