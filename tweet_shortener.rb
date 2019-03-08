@@ -22,8 +22,8 @@ def word_substituter(str)
         words = v
         end
       end
-    end
-    arr.push(words)
+      arr.push(words)
+    end    
   arr.join(" ")
 end
 
