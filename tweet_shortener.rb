@@ -47,7 +47,7 @@ def shortened_tweet_truncator(str)
       str = str.slice!(0..140)
       ellipsis = "..."
       str += ellipsis
-  else
-  puts str
+      else
+        puts str
     end
   end
