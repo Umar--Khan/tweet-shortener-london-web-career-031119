@@ -48,6 +48,6 @@ def shortened_tweet_truncator(str)
       ellipsis = "..."
       str += ellipsis
     else
-      puts str
+      str
   end
 end
