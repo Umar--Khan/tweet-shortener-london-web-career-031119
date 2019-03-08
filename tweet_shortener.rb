@@ -25,7 +25,7 @@ def word_substituter(str)
   str.join(" ")
 end
 
-def bulk_tweet_shortener(str)  
+def bulk_tweet_shortener(str)
   str.each do |words|
   dictionary.each do |k, v|
       if words == k
