@@ -35,9 +35,9 @@ end
 
 
 def selective_tweet_shortener(str)
-  if str.split(" ").length >= 140
-    str.each do |words|
-    puts bulk_tweet_shortener(words)
-      end
-    end
+if str.join(" ").length >= 140     
+    bulk_tweet_shortener(str)
+else
+puts str
   end
+end
