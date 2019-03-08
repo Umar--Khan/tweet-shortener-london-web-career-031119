@@ -26,18 +26,7 @@ def word_substituter(str)
 end
 
 def bulk_tweet_shortener(str)
-  counter = 0
-  arr = []
-  str = str[counter].split(" ")
   str.each do |words|
-  dictionary.each do |k, v|
-      if words == k
-        words.replace(v)
-        # arr = arr.push(str.join(" "))
-        counter += 1
-        end
-      end
-    end
-  arr = arr.push(str.join(" "))
-  puts arr.join(" ")
+    puts word_substituter(str)
+  end
 end
