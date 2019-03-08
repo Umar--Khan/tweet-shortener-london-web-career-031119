@@ -37,8 +37,7 @@ end
 def selective_tweet_shortener(str)
   if str.join.length >= 140
     str.each do |words|
-    puts word_substituter(words)              
-      end    
-    end 
+    puts word_substituter(words)
+      end
+    end
   end
-
